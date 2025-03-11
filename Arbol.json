@@ -1,0 +1,62 @@
+[
+  {
+    "tipo": "Funcion",
+    "nombre": "suma",
+    "parametros": [
+      { "tipo": "int", "nombre": "a" },
+      { "tipo": "int", "nombre": "b" }
+    ],
+    "cuerpo": [
+      {
+        "tipo": "Asignacion",
+        "tipo variable": ["IDENTIFIER", "a"],
+        "nombre": "a",
+        "expresion": { "tipo": "Identificador", "nombre": "b" }
+      },
+      {
+        "tipo": "Retorno",
+        "expresion": { "tipo": "Identificador", "nombre": "c" }
+      }
+    ]
+  },
+  {
+    "tipo": "Funcion",
+    "nombre": "main",
+    "parametros": [
+      { "tipo": "int", "nombre": "a" },
+      { "tipo": "int", "nombre": "b" }
+    ],
+    "cuerpo": [
+      {
+        "tipo": "Asignacion",
+        "tipo variable": ["IDENTIFIER", "a"],
+        "nombre": "a",
+        "expresion": { "tipo": "Identificador", "nombre": "b" }
+      },
+      {
+        "tipo": "Retorno",
+        "expresion": { "tipo": "Identificador", "nombre": "a" }
+      }
+    ]
+  },
+  {
+    "tipo": "Funcion",
+    "nombre": "resta",
+    "parametros": [
+      { "tipo": "int", "nombre": "a" },
+      { "tipo": "int", "nombre": "b" }
+    ],
+    "cuerpo": [
+      {
+        "tipo": "Asignacion",
+        "tipo variable": ["IDENTIFIER", "a"],
+        "nombre": "a",
+        "expresion": { "tipo": "Identificador", "nombre": "b" }
+      },
+      {
+        "tipo": "Retorno",
+        "expresion": { "tipo": "Identificador", "nombre": "c" }
+      }
+    ]
+  }
+]
